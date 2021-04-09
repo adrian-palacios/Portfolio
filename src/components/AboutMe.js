@@ -18,7 +18,7 @@ const AboutMe = () => {
 						for complex application development, coding and testing.
 						Technologies I use is MERN(MongoDB, ExpressJS, ReactJS, NodeJS) and
 						I'm eager to learn more as I grow in my proffesional career. I am
-						also knowlegable in Session storage & User Authentication, CI/CD,
+						also knowlegable in Session storage and User Authentication, CI/CD,
 						and BootStrap. I take an organized approach to help join a
 						collaborative environment, lend a critical eye for software planning
 						and assesment to meet all organizational objectives. Throughout my
