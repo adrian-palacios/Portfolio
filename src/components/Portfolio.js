@@ -19,11 +19,11 @@ const Portfolio = () => {
 					alt="foodtruckApp"
 				/>
 				<p>
-					FoodTrucksATX is a front end app that uses Weather API, Google Maps
-					API and Yelps API for users of all ages to determine the available
-					food trucks in the user’s desired area of Austin, TX then allowing
-					them to choose to walk, bike, take public transit, or personal car
-					based on their desired time to arrival.
+					FoodTrucksATX is a front end app that uses the Weather API, Google
+					Maps API and Yelps API for users of all ages to determine the
+					available food trucks in the user’s desired area of Austin, TX then
+					allowing them to choose to walk, bike, take public transit, or
+					personal car based on their desired time to arrival.
 				</p>
 				<b>Demo:</b>{" "}
 				<a
