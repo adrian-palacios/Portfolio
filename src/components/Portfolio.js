@@ -18,13 +18,21 @@ const Portfolio = () => {
 					src={foodtruck}
 					alt="foodtruckApp"
 				/>
-				<p>lorem ipsum dolor sit amet</p>
+				<p>
+					FoodTrucksATX is a front end app that uses Weather API, Google Maps
+					API and Yelps API for users of all ages to determine the available
+					food trucks in the user’s desired area of Austin, TX then allowing
+					them to choose to walk, bike, take public transit, or personal car
+					based on their desired time to arrival.
+				</p>
 				<b>Demo:</b>{" "}
 				<a
 					className="hyper-link"
-					onClick={() => window.open("https://destinatx.github.io/Project-1/")}
+					onClick={() =>
+						window.open("https://dc2projects.github.io/ATXFoodTruck/")
+					}
 				>
-					https://destinatx.github.io/Project-1/
+					https://dc2projects.github.io/ATXFoodTruck/
 				</a>
 				<br />
 				<b>Github:</b>{" "}
@@ -57,7 +65,12 @@ const Portfolio = () => {
 					src={orchard}
 					alt="Orchard app"
 				/>
-				<p>lorem ipsum dolor sit amet</p>
+				<p>
+					The Orchard app is intended for small time gardeners/farmers to help
+					track and manage the plants they grow, and then track the price as
+					well as expiration dates. Users can post listings for plants, fruits,
+					etc. to help ease their sales.
+				</p>
 				<b>Demo:</b>{" "}
 				<a
 					className="hyper-link"

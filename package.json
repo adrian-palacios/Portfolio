@@ -1,5 +1,5 @@
 {
-  "homepage":"https://adrian-palacios.github.io/Portfolio/",
+  "homepage": "https://adrian-palacios.github.io/Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,11 +12,8 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.0",
     "bootstrap": "^4.6.0",
-<<<<<<< HEAD
     "gh-pages": "^3.1.0",
-=======
     "emailjs-com": "^2.6.4",
->>>>>>> 99a05ab96092121fd4a19ee3fb11a074dfbffc8c
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hook-form": "^7.0.5",
@@ -32,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
