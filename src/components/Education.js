@@ -4,7 +4,7 @@ import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Education = () => {
 	return (
-		<div className="Education">
+		<div id="education" className="Education">
 			<h1 className="py-5">Education</h1>
 			<div className="container">
 				<div className="row">
