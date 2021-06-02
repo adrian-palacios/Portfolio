@@ -11,11 +11,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
 			<div className="container">
 				<a className="navbar-brand" href="#">
-<<<<<<< HEAD
 					<img className="logo" src={logo} alt="logo"></img>
-=======
-					<img className="my-logo" src={logo} alt="logo" />
->>>>>>> 78d5560163096225abb0cb8622e24f2e7dd54f82
 				</a>
 				<button
 					className="navbar-toggler"
