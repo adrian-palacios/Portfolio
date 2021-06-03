@@ -59,7 +59,7 @@ const Experience = () => {
 							<li> Web API's</li>
 							<li> 3rd Party API's</li>
 							<li> MySQL/NoSQL</li>
-							<li> CI/CD</li>
+							<li> CI/CD, CircleCI</li>
 							<li> Session Storage and User Authentication </li>
 							<li> Responsive Design</li>
 						</ul>
