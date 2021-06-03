@@ -55,7 +55,7 @@ const Experience = () => {
 						<ul>
 							<li> HTML/CSS/BootStrap</li>
 							<li> JavaScript/JQuery/React.js/Node.js/Express.js/MongoDB</li>
-							<li> Bootstrao</li>
+							<li> Bootstrap</li>
 							<li> Web API's</li>
 							<li> 3rd Party API's</li>
 							<li> MySQL/NoSQL</li>
