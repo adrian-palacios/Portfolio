@@ -54,12 +54,14 @@ const Experience = () => {
 						</p>
 						<ul>
 							<li> HTML/CSS/BootStrap</li>
-							<li> JavaScript/JQuery/React.js/Node.js/Express.js</li>
+							<li> JavaScript/JQuery/React.js/Node.js/Express.js/MongoDB</li>
+							<li> Bootstrao</li>
 							<li> Web API's</li>
 							<li> 3rd Party API's</li>
 							<li> MySQL/NoSQL</li>
-							<li> CI/CD/</li>
-							<li> MongoDB</li>
+							<li> CI/CD</li>
+							<li> Session Storage and User Authentication </li>
+							<li> Responsive Design</li>
 						</ul>
 					</div>
 				</div>
