@@ -1,6 +1,7 @@
 import React from "react";
 import foodtruck from "../foodtrucksatx.png";
 import orchard from "../orchard.png";
+import webscraper from "../webscraper.jpeg";
 // font awesome import///
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -104,6 +105,44 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
+	// web scrapper
+	const openPopupboxWebScraper = () => {
+		const content = (
+			<>
+				<img
+					className="portfolio-image-popupbox"
+					src={webscraper}
+					alt="Webscraper app"
+				/>
+				<p>
+					The web scrapper I built is built with Axios, Express, and Cheerio. In
+					this personal project I scrapped The Guardian website and retrieved
+					the title and url of all the articles on their home page.
+				</p>
+				<br />
+				<b>Github:</b>{" "}
+				<a
+					className="hyper-link"
+					onClick={() =>
+						window.open("https://github.com/adrian-palacios/web-scrapper")
+					}
+				>
+					https://github.com/adrian-palacios/web-scrapper
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigOrchard = {
+		titleBar: {
+			enable: true,
+			text: "WebScraper App",
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+
 	return (
 		<div id="portfolio" className="portfolio-wrapper">
 			<div className="container">
@@ -122,10 +161,17 @@ const Portfolio = () => {
 						<div className="overflow"></div>
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
+					{/*  */}
+					<div className="portfolio-image-box" onClick={openPopupboxWebScraper}>
+						<img className="portfolio-image" src={orchard} alt="project2" />
+						<div className="overflow"></div>
+						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					</div>
 				</div>
 			</div>
 			<PopupboxContainer {...popupboxConfigFoodtruck} />
 			<PopupboxContainer {...popupboxConfigOrchard} />
+			<PopupboxContainer {...popupboxConfigWebScraper} />
 		</div>
 	);
 };

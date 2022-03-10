@@ -69,7 +69,7 @@ const Experience = () => {
 				<div className="timeline-block timeline-block-left">
 					<div className="marker"></div>
 					<div className="timeline-content">
-						<h3>2021-Current</h3>
+						<h3>2021</h3>
 						<p>
 							<strong>Rebelution Promotions</strong>Part-time Junior Web
 							Developer
@@ -86,6 +86,39 @@ const Experience = () => {
 							<li>
 								Use of Microsoft Outlook, Office & Teams for collaboration with
 								other departments
+							</li>
+						</ul>
+					</div>
+					{/*  */}
+					<div className="timeline-block timeline-block-right"></div>
+					<div className="marker"></div>
+					<div className="timeline-content">
+						<h3>2021-Current</h3>
+						<p>
+							<strong>Logical Position</strong> Junior SEO Web Developer
+						</p>
+						<ul>
+							<li>
+								Lead the implementation of basic SEO Content Writer’s work on
+								client websites including but not limited to, posting blogs,
+								editing existing pages, and ensuring SEO standards are kept.
+							</li>
+							<ul>
+								<li>HTML, CSS, & JavaScript</li>
+							</ul>
+							<li>
+								Ability to work on multiple website platforms on a regular basis
+								to ensure positive SEO impact on client websites
+							</li>
+							<li>
+								Remain current with industry trends while continually leveraging
+								new tools and industry best practices to improve our product
+								offerings
+							</li>
+							<li>
+								Exercise discretion when developing and implementing SEO changes
+								and updates on client websites and ensuring all aspects of the
+								website are functioning properly
 							</li>
 						</ul>
 					</div>
